@@ -1,5 +1,16 @@
 # weekly\_challenges
 
-These are done with with elixir to demonstrate performance
+Build the image
+```
+docker build -t weekly_challenge_elixir .
+```
 
-Install elixir however you want. Project tests are run using, e.g. `elixir challenge_1_test.exs`
+Run the container
+```
+docker run -t -i weekly_challenge_elixir
+```
+
+Run tests on the container
+```
+elixir /weekly_challenge/challenge_1_test.exs
+```
